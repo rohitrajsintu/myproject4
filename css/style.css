@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 20%;
+    /* background-color: hotpink; */
+   
+}
+ .header .left{
+    width: 33%;
+   float: left;
+   text-align: left;
+   
+}
+.header .center{
+    width: 33%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+  
+}
+.header .right{
+    width: 33%;
+    float: left;
+    text-align: right;
+   
+}
+.header .left a{
+    color: gray;
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+.header .center a{
+    text-decoration: none;
+    color: #f6755e;
+    font-size: 40px;
+    font-family:'Pacifico', cursive ;
+}
+.header .right button{
+    width: 75px;
+    height: 30px;
+    border: 1px solid gray;
+    font-family:'Montserrat', sans-serif;
+    background: none ;
+    position: relative;
+    right: 30px;
+    top: 20px;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center top;
+    clear: both;
+}
+.banner .text{
+    text-align: center;
+    position: relative;
+    top: 180px;
+}
+.text h1{
+    font-size: 45px;
+    color: #25a2c3;
+}
+.text p{
+    font-size: 22px;
+    font-weight: 100;
+    color: rgb(89, 86, 86);
+}
+.text button{
+    width: 140px;
+    height: 40px;
+    background-color:#f6755e ;
+    color: white;
+    border: none;
+    
+}
+/* banner css finished here */
+.middlepart1{
+    width: 100%;
+    height: 400px;
+    margin-top: 70px;
+
+}
+.middlepart1 .left{
+    width: 330px;
+    height: 330px;
+    float: left;
+    margin-left:125px ;
+}
+.middlepart1 .left h3{
+    color:#25a2c3 ;
+    text-align: right;
+}
+.middlepart1 .left p{
+    text-align: right;
+    color:gray;
+}
+
+.middlepart1 .centre{
+    width: 330px;
+    height: 330px;
+    float: left;
+   background-image: url("../img/pic01.jpg");
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: -20px;
+}
+
+.middlepart1 .right{
+    width: 330px;
+    height: 330px;
+    float: left;
+}
+.middlepart1 .right h3{
+    color:#25a2c3 ;
+}
+.middlepart1 .right p{
+    color:gray;
+}
+
+
+/* ---------- */
+.middlepart2{
+    width: 100%;
+    height: 320px;
+    background-color:#f6755e ;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    
+}
+.middlepart2 h2{
+    color:white;
+    position: relative;
+    top: 70px;
+}  
+.middlepart2 h4{
+    color: white;
+    position: relative;
+    top: 90px;
+    
+}
+.middlepart2 p{
+    color:rgb(243, 243, 243);
+    line-height: 25px;
+    position: relative;
+    top: 70px;
+    
+}
+.middlepart3{
+    width: 100%;
+    height: 350px;
+   
+}
+.middlepart3 .left{
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(213, 213, 213);
+    float: left;
+    margin-left: 180px;
+}
+.middlepart3 .centre{
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(213, 213, 213);
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.middlepart3 .right{
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(213, 213, 213);
+    float: left;
+}
+.middlepart3 h3{
+    color:#25a2c3 ;
+    margin-left: 15px;
+    
+}
+.middlepart3 p{
+    margin-left: 15px;
+    color: gray;
+}
+/* bottom css start  */
+.bottom{
+    width: 100%;
+    height: 320px;
+    background-color:#25a2c3 ;
+    text-align: center;
+    color: white;
+  
+}
+.bottom h1{
+    position: relative;
+    top: 80px;
+}
+.bottom .social{
+    position: relative;
+    top: 90px;
+    margin-right: 20px;
+}
+.social .fa{
+    color: orangered;
+    margin-left: 50px;
+}
+span{
+    color: rgb(232, 224, 224);
+}
+hr{  
+    width: 36%;
+}
+
+
+
